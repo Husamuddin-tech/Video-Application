@@ -5,7 +5,6 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import {
   uploadOnCloudinary,
-  deleteFromCloudinary,
 } from "../utils/cloudinary.js";
 
 // Get all videos with pagination, search, sort
